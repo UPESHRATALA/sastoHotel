@@ -72,7 +72,7 @@ const Pricing = () => {
       <div className=" mx-auto mt-10">
         <div className=" flex flex-row items-center relative">
           <span className=" text-[#222222] text-4xl sm:text-6xl md:text-9xl font-semibold">
-            $
+            Rs
           </span>
           <input
             type="text"
@@ -107,7 +107,7 @@ const Pricing = () => {
               className=" text-sm text-[#717171]"
               onClick={handleShowPricingTable}
             >
-              Guest price before taxes ${priceBeforeTaxes}
+              Guest price before taxes Rs{priceBeforeTaxes}
             </p>
             <div onClick={handleShowPricingTable}>
               <MdKeyboardArrowDown size={24} />
@@ -122,11 +122,11 @@ const Pricing = () => {
             {/* house price calculation */}
             <div className=" flex flex-row justify-between items-center">
               <p className=" text-sm text-[#717171]">Base Price</p>
-              <p className=" text-sm text-[#717171]">${basePrice}</p>
+              <p className=" text-sm text-[#717171]">Rs{basePrice}</p>
             </div>
             <div className=" flex flex-row justify-between items-center">
               <p className=" text-sm text-[#717171]">Guest service fee</p>
-              <p className=" text-sm text-[#717171]">${taxBasedOnBasePrice}</p>
+              <p className=" text-sm text-[#717171]">Rs{taxBasedOnBasePrice}</p>
             </div>
             <hr className=" bg-[#b0b0b0] h-[1px]" />
             <div className=" flex flex-row justify-between items-center">
@@ -134,7 +134,7 @@ const Pricing = () => {
                 Guest price before taxes
               </p>
               <p className=" text-sm text-[#222222] font-medium">
-                ${priceBeforeTaxes}
+                Rs{priceBeforeTaxes}
               </p>
             </div>
           </div>
@@ -143,19 +143,19 @@ const Pricing = () => {
           <div className=" flex flex-col gap-3 px-4 py-6 rounded-xl border border-[#b0b0b0] ">
             <div className=" flex flex-row justify-between items-center">
               <p className=" text-sm text-[#717171]">Base Price</p>
-              <p className=" text-sm text-[#717171]">${basePrice}</p>
+              <p className=" text-sm text-[#717171]">Rs{basePrice}</p>
             </div>
             <div className=" flex flex-row justify-between items-center">
               <p className=" text-sm text-[#717171]">Host service fee</p>
               <p className=" text-sm text-[#717171]">
-                - ${serviceFeeBasedOnBasePrice}
+                - Rs{serviceFeeBasedOnBasePrice}
               </p>
             </div>
             <hr className=" bg-[#b0b0b0] h-[1px]" />
             <div className=" flex flex-row justify-between items-center">
               <p className=" text-sm text-[#222222] font-medium">You earn</p>
               <p className=" text-sm text-[#222222] font-medium">
-                ${authorEarnedPrice}
+                Rs{authorEarnedPrice}
               </p>
             </div>
           </div>

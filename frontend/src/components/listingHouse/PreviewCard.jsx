@@ -34,7 +34,7 @@ const PreviewCard = () => {
               {currentHouseData?.title}
             </p>
             <span className=" flex flex-row gap-1">
-              <p className=" font-bold">${currentHouseData?.basePrice}</p>
+              <p className=" font-bold">Rs{currentHouseData?.basePrice}</p>
               <span>night</span>
             </span>
           </div>

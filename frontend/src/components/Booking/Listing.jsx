@@ -72,17 +72,17 @@ const Listing = ({ searchParamsObj }) => {
               <p>{nightStaying} nights</p>
             )}
             {/* calculating price */}
-            <p>${basePrice === 0 ? listingData?.basePrice : basePrice}</p>
+            <p>Rs{basePrice === 0 ? listingData?.basePrice : basePrice}</p>
           </span>
           <span className=" flex flex-row justify-between text-base text-[#222]">
             <p>Taxes</p>
-            <p>${tax}</p>
+            <p>Rs{tax}</p>
           </span>
         </div>
         <hr className="w-full h-[1.3px] bg-[#dddddd] my-6" />
         <div className=" flex flex-row justify-between text-base text-[#222] font-medium">
           <p>Total(USD)</p>
-          <p>${totalPrice}</p>
+          <p>Rs{totalPrice}</p>
         </div>
       </div>
     </div>

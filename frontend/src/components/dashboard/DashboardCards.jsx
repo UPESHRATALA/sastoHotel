@@ -64,7 +64,7 @@ const DashboardCards = ({ reservations, totalPrice }) => {
       <Cards
         title={"Total Revenue"}
         icon={revenueIcon}
-        heading={`$${totalPrice}`}
+        heading={`Rs${totalPrice}`}
         subHead={"+12% increase"}
       />
       <Cards
