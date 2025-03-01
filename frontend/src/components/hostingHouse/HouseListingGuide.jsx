@@ -1,4 +1,4 @@
-import bgImage from "../../assets/setupPic.png";
+import bgImage from "../../assets/setupPic.gif";
 import SetupCard from "./SetupCard";
 
 const HouseListingGuide = () => {
