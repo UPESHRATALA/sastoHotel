@@ -15,23 +15,28 @@ const Map = ({ latAndLong, zoom }) => {
   const mapKey = latAndLong ? `${latAndLong[0]}-${latAndLong[1]}` : "default";
 
   const url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-  const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  const attribution =
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+  // Set default Kathmandu coordinates if latAndLong is not passed
+  const defaultLocation = [27.7172, 85.3240]; // Coordinates for Kathmandu
 
   return (
     <MapContainer
       key={mapKey}
-      center={latAndLong.length !== 0 ? latAndLong : [24, 90]}
-      zoom={zoom ? zoom : 4}
+      center={latAndLong.length !== 0 ? latAndLong : defaultLocation}
+      zoom={zoom ? zoom : 13} // Zoom level adjusted to Kathmandu
       scrollWheelZoom={false}
       className="w-full rounded-lg h-full"
     >
       <TileLayer url={url} attribution={attribution} />
       <Marker
-        position={latAndLong.length !== 0 ? latAndLong : [23, 78]}
+        position={latAndLong.length !== 0 ? latAndLong : defaultLocation}
         icon={customIcon}
       >
         <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
+          <b>Kathmandu</b><br />
+          The capital city of Nepal.
         </Popup>
       </Marker>
     </MapContainer>

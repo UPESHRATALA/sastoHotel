@@ -5,7 +5,7 @@ import AuthenticationPopUp from "../popUp/authentication/AuthenticationPopUp";
 import MiniNavbar from "./DashboardMenu";
 import { getUser, userLogOut } from "../../redux/actions/userActions";
 import hamburgerMenu from "../../assets/basicIcon/hamburgerMenu.svg";
-import motelLogo from "../../assets/Travel_Logo.png";
+import motelLogo from "../../assets/sastoHotel_Logoo.png";
 import userProfile from "../../assets/basicIcon/user-profile.png";
 import searchIcon from "../../assets/basicIcon/search.svg";
 import house from "../../assets/basicIcon/houseWhite.png";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/motelLogoBlack.png";
+import logo from "../../assets/sastoHotel_Logoo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "../../redux/actions/userActions";
 
