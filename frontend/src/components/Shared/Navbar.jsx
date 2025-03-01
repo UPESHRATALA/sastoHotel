@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`border-b-[1.4px] border-[#f1f1f1] sticky top-0 z-[99] bg-white ${inBookingPage && "hidden md:block"
+      className={`border-b-[1.4px] border-[#222222] sticky top-0 z-[99] bg-white ${inBookingPage && "hidden md:block"
         }`}
     >
       <div
@@ -84,7 +84,7 @@ const Navbar = () => {
             />
             {/* if user is in hosting homes page we want only logo */}
             {inHostHomesLandingPage || isSmallDevice ? null : (
-              <p className="text-xl text-[#ff385c] font-bold">Journey Cuisine</p>
+              <p className="text-xl text-[#8B0000] font-bold">SastoHotel</p>
             )}
           </span>
         </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <div>{inUserDashboard && <MiniNavbar />} </div>
             ) : (
               <div className="mx-auto lg:block hidden">
-                <div className="border-[1px] border-[#dddddd] rounded-full px-3 py-2 flex items-center shadow hover:shadow-md transition-all cursor-pointer">
+                <div className="border-[1px] border-[#FFD700] rounded-full px-3 py-2 flex items-center shadow hover:shadow-md transition-all cursor-pointer">
                   <input
                     type="search"
                     className=" focus:outline-none pl-2"
@@ -108,9 +108,9 @@ const Navbar = () => {
                       height: '30px',
                       marginRight: '8px',
                     }}
-                    placeholder="Search for places"
+                    placeholder="Search for rooms"
                   />
-                  <div className="bg-[#ff385c] rounded-full p-2">
+                  <div className="bg-[#8B0000] rounded-full p-2">
                     <img src={searchIcon} alt="Search hotel" className="w-4" />
                   </div>
                 </div>
