@@ -20,19 +20,19 @@ exports.createPaymentIntent = async (req, res) => {
         console.log(payload);
 
         const paymentIntent = await stripe.paymentIntents.create({
-            description: 'Journey Cuisine Holel APP',
+            description: 'SastoHolel APP',
             shipping: {
-                name: 'Sk Mirajul Islam',
+                name: 'Hilton',
                 address: {
-                    line1: '510 Townsend St',
-                    postal_code: '98140',
-                    city: 'San Francisco',
-                    state: 'CA',
-                    country: 'US',
+                    line1: 'Naxal',
+                    postal_code: '44600',
+                    city: 'Kathmandu',
+                    state: 'Bagmati',
+                    country: 'Nepal',
                 },
             },
             amount: 1099,
-            currency: 'usd',
+            currency: 'npr',
             payment_method_types: ['card'],
         });
 

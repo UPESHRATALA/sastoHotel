@@ -38,7 +38,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={PiHouseLine}
-          name={"House"}
+          name={"Deluxe room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -47,7 +47,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={MdOutlineApartment}
-          name={"Apartment"}
+          name={"Single room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -56,7 +56,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={GiTreehouse}
-          name={"Tree house"}
+          name={"Standard room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -65,7 +65,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={TbSailboat2}
-          name={"Boat"}
+          name={"Double room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -74,7 +74,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={MdOutlineCabin}
-          name={"Cabin"}
+          name={"Presidential Suite"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -83,7 +83,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={TbCamper}
-          name={"Camper"}
+          name={"Triple room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -92,7 +92,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={MdOutlineCastle}
-          name={"Castle"}
+          name={"Twin room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -101,7 +101,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={GiMountainCave}
-          name={"Cave"}
+          name={"Executive suite"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -110,7 +110,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={GoContainer}
-          name={"Container"}
+          name={"Quadruple room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -119,7 +119,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={GiLightningDome}
-          name={"Dome"}
+          name={"Hollywood Twin room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -128,7 +128,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={RiEarthquakeLine}
-          name={"Earth home"}
+          name={"Queen room"}
           onClick={handleStoreCardData}
           svgSize={svgSize}
           ptagStyle={structurePtagClass}
@@ -136,7 +136,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={PiTent}
-          name={"Tent"}
+          name={"King room"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -145,7 +145,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={GiControlTower}
-          name={"Tower"}
+          name={"Honeymoon Suite"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -154,7 +154,7 @@ const ListHouseStepOneStructure = () => {
         <StructureCard
           style={structureCardStyle}
           Img={LiaHotelSolid}
-          name={"Hotel"}
+          name={"Duplex"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
