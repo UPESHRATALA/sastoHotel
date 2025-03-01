@@ -41,16 +41,16 @@ const Visibility = () => {
       </div>
       <PlaceTypeCard
         desc={
-          "Get reservations faster when you welcome anyone from the Motel community."
+          "Get reservations faster when you welcome anyone from the SastoHotel community."
         }
-        head={"Any Motel guest"}
+        head={"Any SastoHotel guest"}
         onClick={handleStoreCardData}
         storedCardData={storedCardData}
         CheckOutline={AiOutlineCheckCircle}
         CheckFill={BsFillCheckCircleFill}
       />
       <PlaceTypeCard
-        desc="For your first guest, welcome someone with a good track record on Motel who can offer tips for how to be a great Host"
+        desc="For your first guest, welcome someone with a good track record on SastoHotel who can offer tips for how to be a great Host"
         head={"An Experienced guest"}
         onClick={handleStoreCardData}
         storedCardData={storedCardData}

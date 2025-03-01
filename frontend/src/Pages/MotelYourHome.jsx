@@ -13,7 +13,7 @@ const MotelYourHome = () => {
         <HouseHostingDetails setLatAndLong={setLatAndLong} />
         {/* map section */}
         <div className=" w-full h-[300px] md:h-[400px] lg:h-[450px] mx-auto">
-          <Map latAndLong={latAndLong} key="motelMap" />
+          <Map latAndLong={latAndLong} key="sastoHotellMap" />
         </div>
       </section>
       {/* setup guidelines */}

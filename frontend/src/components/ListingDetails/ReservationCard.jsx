@@ -114,7 +114,7 @@ const ReservationCard = ({ listingData }) => {
     const calculatedBasePrice = listingData?.basePrice * finalNights;
     // tax is 14%
     const calculatingTaxes = Math.round((calculatedBasePrice * 14) / 100);
-    // motel service charge is 3%
+    // SastoHotel service charge is 3%
     const calculateAuthorEarned =
       calculatedBasePrice - Math.round((calculatedBasePrice * 3) / 100);
 

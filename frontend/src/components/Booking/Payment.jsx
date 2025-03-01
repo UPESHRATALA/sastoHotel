@@ -114,8 +114,8 @@ const Payment = ({ searchParamsObj }) => {
           <hr className="w-full h-[1.3px] bg-[#dddddd] my-10" />
           <p className="text-xs opacity-70">
             By selecting the button below, I agree to the Host&apos;s House
-            Rules, Ground rules for guests, Motel&apos;s Rebooking and Refund
-            Policy, and that Motel can charge my payment method if I’m
+            Rules, Ground rules for guests, SastoHotel&apos;s Rebooking and Refund
+            Policy, and that SastoHotel can charge my payment method if I’m
             responsible for damage.
           </p>
 

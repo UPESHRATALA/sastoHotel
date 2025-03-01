@@ -180,7 +180,7 @@ const CreateUserPopup = ({
             }`}
           >
             To sign up, you need to be at least 18. Your birthday won’t be
-            shared with other people who use Motel.
+            shared with other people who use SastoHotel.
           </p>
         </div>
         <div>
@@ -262,7 +262,7 @@ const CreateUserPopup = ({
             , I agree to
             <Link className=" text-blue-600 underline font-medium">
               {" "}
-              Motel Terms of Service, Payments Terms of Service,
+              SastoHotel Terms of Service, Payments Terms of Service,
             </Link>{" "}
             and Nondiscrimination Policy and acknowledge the Privacy Policy.
           </span>
@@ -270,7 +270,7 @@ const CreateUserPopup = ({
         <div className=" flex flex-row items-center gap-5">
           <input type="checkbox" className="h-5 w-5" />
           <p className=" text-xs">
-            I don’t want to receive marketing messages from Motel.
+            I don’t want to receive marketing messages from SastoHotel.
           </p>
         </div>
         <div>

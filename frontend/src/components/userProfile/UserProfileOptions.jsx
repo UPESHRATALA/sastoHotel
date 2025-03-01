@@ -15,7 +15,7 @@ const UserProfileOptions = ({ setShowPopup, setSelectedOption }) => {
             Your profile
           </h1>
           <div className=" text-base text-[#717171] max-w-[85%] mt-5">
-            The information you share will be used across Motel to help other
+            The information you share will be used across SastoHotel to help other
             guests and Hosts get to know you.
           </div>
         </div>

@@ -103,7 +103,7 @@ const Legal = () => {
             Important things to know{" "}
           </h6>
           <p className="text-xs sm:text-sm mt-2">
-            Be sure to comply with your local laws and review Motel&apos;s
+            Be sure to comply with your local laws and review SastoHotel&apos;s
             nondiscrimination policy and guest and Host fees.
           </p>
         </div>

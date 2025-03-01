@@ -127,15 +127,15 @@ const Navbar = () => {
             {inHostHomesLandingPage ? (
               <div className=" flex flex-row items-center justify-between gap-4">
                 <p className=" text-[#222222] text-sm font-medium hidden sm:block">
-                  Ready to Motel it?
+                  Ready to SastoHotel it?
                 </p>
                 <Link
                   to="/become-a-host"
-                  className=" flex flex-row justify-between items-center gap-2 bg-[#ff385c] hover:bg-[#d90b63] transition-all duration-300 px-3 py-2 rounded-lg"
+                  className="flex flex-row justify-between items-center gap-2 bg-[#8B0000] hover:bg-[#600000] transition-all duration-300 px-3 py-2 rounded-lg"
                 >
                   <img src={house} alt="House setup" className=" w-4 md:w-5" />
                   <p className=" font-semibold text-sm md:text-base text-white">
-                    Motel setup
+                    SastoHotel setup
                   </p>
                 </Link>
               </div>
@@ -149,7 +149,7 @@ const Navbar = () => {
                       className=" bg-[#ffffff] hover:bg-[#f0f0f0] transition-all rounded-full p-3 cursor-pointer mr-3 md:block hidden"
                     >
                       <p className="text-sm font-medium text-[#222222]">
-                        Motel your home
+                        SastoHotel your home
                       </p>
                     </Link>
                   )}
@@ -162,7 +162,7 @@ const Navbar = () => {
                   >
                     <img
                       src={hamburgerMenu}
-                      alt="Motel user menu"
+                      alt="SastoHotel user menu"
                       className="w-4"
                     />
                     {user ? (
@@ -205,7 +205,7 @@ const Navbar = () => {
                             Login
                           </Link>
                           <hr className="h-[1.5px] bg-[#dddddd] my-1" />
-                          <Link>Motel your home</Link>
+                          <Link>SastoHotel your home</Link>
                           <Link>Help</Link>
                         </div>
                       ) : (
@@ -243,7 +243,7 @@ const Navbar = () => {
                           <Link className="font-medium">Trips</Link>
                           <Link className="font-medium">Wishlists</Link>
                           <hr className="h-[1.5px] bg-[#dddddd] my-1" />
-                          <Link to={"/host/homes"}>Motel your home</Link>
+                          <Link to={"/host/homes"}>SastoHotel your home</Link>
                           <Link to={`/users/show/${user._id}`}>Account</Link>
                           <hr className="h-[1.5px] bg-[#dddddd] my-1" />
                           <Link>Help</Link>

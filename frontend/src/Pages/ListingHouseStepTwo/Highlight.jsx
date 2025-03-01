@@ -44,7 +44,7 @@ const Highlight = () => {
     <div className=" flex flex-col gap-10 max-w-screen-md mx-auto my-8 xl:py-[15vh] min-h-[70vh]">
       <div className="flex flex-col gap-3 md:gap-0">
         <h1 className=" text-[#222222] text-xl sm:text-2xl md:text-[32px] font-medium">
-          Next, let&apos;s describe your apartment
+          Next, let&apos;s describe your rooms
         </h1>
         <p className="text-sm sm:text-base md:text-lg text-[#717171]">
           Choose up to 2 highlights. We&apos;ll use these to get your

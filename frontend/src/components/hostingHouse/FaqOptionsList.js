@@ -1,7 +1,7 @@
 export const faqOptionsList = [
     {
-        head: "Is my place right for Motel?",
-        desc: "Motel guests are interested in all kinds of places.We have listings for tiny homes, cabins, treehouses, and more.Even a spare room can be a great place to stay.",
+        head: "Is my place right for SastoHotel?",
+        desc: "SastoHotel guests are interested in all kinds of places.We have listings for tiny homes, cabins, treehouses, and more.Even a spare room can be a great place to stay.",
         id: 1
     },
     {
@@ -15,13 +15,13 @@ export const faqOptionsList = [
         id: 3
     },
     {
-        head: "Any tips on being a great Motel Host?",
+        head: "Any tips on being a great SastoHotel Host?",
         desc: "Getting the basics down goes a long way.Keep your place clean, respond to guests promptly, and provide necessary amenities, like fresh towels.Some Hosts like adding a personal touch, such as putting out fresh flowers or sharing a list of local places to explore—but it’s not required.",
         id: 4
     },
     {
-        head: "What are Motel’s fees?",
-        desc: "Motel typically collects a flat service fee of 3% of the reservation subtotal when you get paid.We also collect a fee from guests when they book.In many areas, Motel collects and pays sales and tourism taxes automatically on your behalf as well.",
+        head: "What are SastoHotel's fees?",
+        desc: "SastoHotel typically collects a flat service fee of 3% of the reservation subtotal when you get paid.We also collect a fee from guests when they book.In many areas, SastoHotel collects and pays sales and tourism taxes automatically on your behalf as well.",
         id: 5
     }
 ]

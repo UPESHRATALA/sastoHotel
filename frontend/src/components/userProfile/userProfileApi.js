@@ -31,7 +31,7 @@ export const profileOptions = [
         img: placeIcon,
         popUpContent: {
             header: "Where you live?",
-            subHead: "Tell us where you live so we can share best apartments to you and share best and affordable prices houses."
+            subHead: "Tell us where you live so we can share best rooms to you and share best and affordable prices houses."
         },
         fieldName: "presentAddress"
     },

@@ -53,7 +53,7 @@ exports.signUp = async (req, res, next) => {
         const updatedUser = await User.findOneAndUpdate(findCriteria, { accessToken: accessToken, refreshToken: refreshToken }, { new: true })
 
         let response = {
-            info: "Welcome to motel",
+            info: "Welcome to SastoHotel",
             success: 1,
             status: 200,
             accessToken: accessToken,

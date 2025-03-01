@@ -16,7 +16,7 @@ const Footer = () => {
             <p>Get help with a safety issue</p>
           </a>
           <a href="https://journey-support.vercel.app">
-            <p>MotelCover</p>
+            <p>SastoHotelCover</p>
           </a>
           <a href="https://journey-support.vercel.app">
             <p>Supporting people with disabilities</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 opacity-80">
           <h6 className="font-semibold">Community</h6>
           <a href="https://journey-support.vercel.app">
-          <p>Motel.org: Disaster relief housing</p>
+          <p>SastoHotel.org: Disaster relief housing</p>
           </a>
           <a href="https://journey-support.vercel.app">
           <p>Combating discrimination</p>
@@ -43,10 +43,10 @@ const Footer = () => {
         <div className="flex flex-col gap-4 opacity-80">
           <h6 className="font-semibold">Hosting</h6>
           <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
-    <p>Motel your home</p>
+    <p>SastoHotel your home</p>
 </a>
 <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
-    <p>MotelCover for Hosts</p>
+    <p>SastoHotelCover for Hosts</p>
 </a>
 <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
     <p>Explore hosting resources</p>
@@ -58,14 +58,14 @@ const Footer = () => {
     <p>How to host responsibly</p>
 </a>
 <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
-    <p>Motel friendly apartments</p>
+    <p>SastoHotel friendly rooms</p>
 </a>
         </div>
         <div className="flex flex-col gap-4 opacity-80">
-          <h6 className="font-semibold">Motel</h6>
+          <h6 className="font-semibold">SastoHotel</h6>
           <p>Newsroom</p>
           <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
-    <p>MotelCover for Hosts</p>
+    <p>SastoHotelCover for Hosts</p>
 </a>
 <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
     <p>Explore hosting resources</p>
@@ -77,7 +77,7 @@ const Footer = () => {
     <p>How to host responsibly</p>
 </a>
 <a href="https://journey-cusine-git-master-skmirajulislams-projects.vercel.app/host/homes">
-    <p>Motel friendly apartments</p>
+    <p>SastoHotel friendly rooms</p>
 </a>
         </div>
       </section>

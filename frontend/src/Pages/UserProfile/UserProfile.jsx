@@ -108,7 +108,7 @@ const UserProfile = () => {
                   It&apos;s time to create your profile
                 </h2>
                 <p className=" text-sm text-[#717171]">
-                  Your Motel profile is an important part of every
+                  Your SastoHotel profile is an important part of every
                   reservation. Create yours to help other Hosts and guests get
                   to know you.
                 </p>
