@@ -84,7 +84,7 @@ const Amenities = () => {
         <StructureCard
           style={amenitisCardStyle}
           Img={MdOutlineKitchen}
-          name={"Kitchen"}
+          name={"Minibar"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -93,7 +93,7 @@ const Amenities = () => {
         <StructureCard
           style={amenitisCardStyle}
           Img={BiSolidWasher}
-          name={"Washer"}
+          name={"Luggage Rack"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -102,7 +102,7 @@ const Amenities = () => {
         <StructureCard
           style={amenitisCardStyle}
           Img={BsSpeedometer2}
-          name={"Paid parking"}
+          name={"Locker"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
@@ -129,7 +129,7 @@ const Amenities = () => {
         <StructureCard
           style={amenitisCardStyle}
           Img={AiOutlineCar}
-          name={"Free parking"}
+          name={"Parking"}
           onClick={handleStoreCardData}
           storedCardData={storedCardData}
           svgSize={svgSize}
