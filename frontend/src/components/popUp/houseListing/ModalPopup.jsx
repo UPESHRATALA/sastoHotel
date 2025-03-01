@@ -17,14 +17,15 @@ const ModalPopup = () => {
           secured
         </p>
         <h3 className="text-base font-medium text-[#222222]">
-          Dangerous animals
+        Haunted Room
         </h3>
         <p className="py-4 text-sm text-[#717171]">
-          Hosts should not keep a potentially dangerous animal (one that’s
-          capable of causing serious harm to humans or other animals) in a
-          listing without properly disclosing its presence and securing it in a
-          safe and secure accommodation.
+          Step into the unknown. This room is known for its eerie atmosphere, with
+          strange occurrences and unexplained sounds. Guests should be aware that there 
+          may be supernatural entities or spooky effects that are part of the haunted experience.
+          While the hotel ensures safety, it is recommended to be prepared for a spine-chilling stay.
         </p>
+
         <div className="modal-action">
           {/* if there is a button in form, it will close the modal */}
           <button className="btn">Close</button>

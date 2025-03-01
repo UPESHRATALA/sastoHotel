@@ -85,7 +85,7 @@ const Legal = () => {
           </div>
           <div className="flex flex-row justify-between items-center">
             <label htmlFor="checkbox3" className=" cursor-pointer">
-              Dangerous animals
+              Haunted Room
             </label>
             <input
               type="checkbox"

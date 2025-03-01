@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 opacity-80">
           <h6 className="font-semibold">Community</h6>
           <a href="https://journey-support.vercel.app">
-          <p>SastoHotel.org: Disaster relief housing</p>
+          <p>SastoHotel.org: Affordable pricing & VIP rooms</p>
           </a>
           <a href="https://journey-support.vercel.app">
           <p>Combating discrimination</p>

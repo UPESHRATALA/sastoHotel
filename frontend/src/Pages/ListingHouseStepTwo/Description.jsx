@@ -48,7 +48,7 @@ const Description = () => {
             handleChange(event);
           }}
           onBlur={handleChange}
-          placeholder="Write your house description here..."
+          placeholder="Write your hotel description here..."
         ></textarea>
         <div className=" mt-2 mb-3">
           <p
