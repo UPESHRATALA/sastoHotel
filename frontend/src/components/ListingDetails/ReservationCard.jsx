@@ -182,7 +182,7 @@ const ReservationCard = ({ listingData }) => {
         <div className=" flex felx-row justify-between items-start">
           <div className=" flex flex-col">
             <h3 className=" text-[22px] text-[#222222] font-semibold">
-              {/* Rs{listingData?.basePrice} */}Rs{reservationBasePrice}
+              {/* ${listingData?.basePrice} */}${reservationBasePrice}
             </h3>
             <p className=" text-[#313131] text-sm">Total before taxes</p>
           </div>

@@ -2,7 +2,7 @@
 
 🌐 Explore, Book, Enjoy - Your Ultimate Hotel Booking Solution
 
-Welcome to the GitHub repository for our Hotel Booking MERN application! This comprehensive project showcases the power and versatility of the MERN stack, providing a seamless experience for users to discover, book, and enjoy their stay at fantastic hotels. this hotel booking web application built using MERN stack. Motel : A hotel booking web application. I took inspiration from airbnb design and tried to recreate a hotel booking web app using MERN stack. I took it beyond from just a hotel booking app to able to host a house/hotel also. Simplifying user interactivity and making the app seamless both book a hotel and host a hotel was the key goal of this project.
+Welcome to the GitHub repository for our Hotel Booking MERN application! This comprehensive project showcases the power and versatility of the MERN stack, providing a seamless experience for users to discover, book, and enjoy their stay at fantastic hotels. this hotel booking web application built using MERN stack. SastoHotel : A hotel booking web application. I took inspiration from airbnb design and tried to recreate a hotel booking web app using MERN stack. I took it beyond from just a hotel booking app to able to host a house/hotel also. Simplifying user interactivity and making the app seamless both book a hotel and host a hotel was the key goal of this project.
 
 its A hotel booking management platform for the travellers. I led end to end design and development, utilizing technologies like React, redux, react Router Dom, leaflet maps, react elastic carousel, react-hook-form, react icons, react hot toast and more.
 
